@@ -4,8 +4,8 @@ $names = ['Emerson','Douglas', "Mariana", "Stella"];
 
 $index = 0;
 
-while($index < count($names)) {
+do{
     echo $names[$index];
     $index++;
-}
+} while($index < count($names));
 
