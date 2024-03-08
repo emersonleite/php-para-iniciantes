@@ -1,6 +1,6 @@
 <?php
 
-function breakLine()
+function breakLine(): void
 {
     echo "\n";
 }
