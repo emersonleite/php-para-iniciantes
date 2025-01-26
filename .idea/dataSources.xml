@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="identifier.sqlite" uuid="a099bf60-62fb-4d76-8245-2b905b437aec">
+    <data-source source="LOCAL" name="customers2.db" uuid="0243e6aa-93f1-4f3e-82dc-d0340b3c7953">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/database/identifier.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/23 Funções/customers2.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="customers.db" uuid="c32fbfa8-1f69-42e8-b0fb-eb09508aaba1">
+    <data-source source="LOCAL" name="customers3.db" uuid="57b38ea9-b407-4599-8a51-86ae21890984">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/23 Funções/customers.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/23 Funções/customers3.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
