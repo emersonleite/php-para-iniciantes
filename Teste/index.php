@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 //---------------- Criando validação, uso de is_callable, call_user_func
@@ -14,7 +15,8 @@ $differTwenty = function ($num) {
 
 $valArray = [$biggerTen, $differTwenty];
 
-function validateEntry(int $entry, array $valArrayList) : bool{
+function validateEntry(int $entry, array $valArrayList): bool
+{
     foreach ($valArrayList as $value) {
         if (is_callable($value) && !call_user_func($value, $entry)) {
             return false;
@@ -23,7 +25,7 @@ function validateEntry(int $entry, array $valArrayList) : bool{
     return true;
 }
 
-echo validateEntry($var,$valArray);
+echo validateEntry($var, $valArray);
 
 
 //---------------- Teste com Reduce
@@ -32,8 +34,3 @@ $ar = [1, 2, 3];
 echo array_reduce($ar, function ($acc, $curr) {
     return $acc + $curr;
 }, 0);
-
-
-
-
-
